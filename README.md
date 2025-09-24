@@ -20,15 +20,15 @@ import eslintPluginPrettierRecommended from "eslint-plugin-prettier/recommended"
 export default [
   {
     files: ['**/*.{js,mjs,cjs,ts,mts,jsx,tsx}'],
-  // your other settings
+  // ... your other settings
+  },
   {
     plugins: {
       // ... your other plugins
-      // HERE
       'sort-imports': sortImports
     },
     rules: {
-      // your other rules
+      // ... your other rules
       'sort-imports/sort-rule': 'error'
     }
   }
