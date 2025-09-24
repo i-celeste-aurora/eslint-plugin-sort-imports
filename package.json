@@ -1,0 +1,12 @@
+{
+  "name": "eslint-plugin-sort-imports",
+  "version": "1.0.0",
+  "description": "Eslint-Plugin to sort imports",
+  "author": "Tobias Hahn",
+  "license": "MIT",
+  "main": "src/index.mjs",
+  "dependencies": {
+    "escodegen": "2.0.0"
+  },
+  "packageManager": "yarn@4.9.2"
+}

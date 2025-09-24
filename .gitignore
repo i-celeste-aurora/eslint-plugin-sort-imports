@@ -1,0 +1,51 @@
+.DS_Store
+node_modules/
+
+build/
+dist/
+coverage/
+cypress-vue/config/
+cypress-vue/data/
+nutrient-viewer-lib/
+cadviewer/
+
+.env.local
+.env.*.local
+
+*.bak
+*.iml
+*.log
+*.njsproj
+*.ntvs*
+*.sln
+*.suo
+*.sw?
+.idea
+.iso
+.tmp
+.vscode
+.commit.txt
+test/e2e/reports/
+test/e2e/screenshots/
+tmp.uuid
+tmp.*.uuid
+
+# Yarn
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# We are using YARN, not npm
+package-lock.json
+
+# Editor directories and files
+.cxx/
+.kotlin/
+
+# JSON-API
+json-api-ng/static/settings.js
+json-api-ng/static/prepareSourceMap.js
+json-api-ng/test.http
