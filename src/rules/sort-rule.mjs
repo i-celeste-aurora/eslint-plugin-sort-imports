@@ -139,7 +139,15 @@ function areNodesEqual(a, b) {
   if (a.specifiers.length !== b.specifiers.length) {
     return false;
   }
-  return a.specifiers.join(',') === b.specifiers.join(',');
+
+  // check if specifier are equal
+  for(let i = 0; i < a.specifiers.length; i++) {
+    if(a.specifiers[i].local.name !== b.specifiers[i].local.name) {
+      return false;
+    }
+  }
+
+  return true;
 }
 
 /**
