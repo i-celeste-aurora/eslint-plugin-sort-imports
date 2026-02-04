@@ -6,7 +6,7 @@ Since this is an internal repository, you need to install it slightly different 
 
 
 ```bash
-yarn add -D eslint-plugin-sort-imports@https://github.com/imdatceleste/eslint-plugin-sort-imports
+yarn add -D eslint-plugin-sort-imports@https://github.com/i-celeste-aurora/eslint-plugin-sort-imports
 ```
 
 # Configuration (eslint.config.js)
